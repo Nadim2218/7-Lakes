@@ -1,0 +1,1081 @@
+@media (max-width: 575.98px) {
+   .quicktech-searchmob-icon button i{
+    color: #d91b5d;
+   }
+    /* index */
+    /* nav */
+    #quicktech-mobile-nav{
+        padding: 10px;
+        background-color: white;
+    }
+    .header {
+       
+        display: none;
+    }
+    #quicktech-mobile-nav {
+        display: block;
+        position: fixed;
+        width: 100%;
+        z-index: 99;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0/0.1),0 2px 4px -2px rgb(0 0 0/0.1);
+    }
+      #quicktech-banner {
+        padding-top: 103px;
+    }
+    .quicktech-menu-sidebar{
+        padding-top: 5px;
+    }
+    .quicktech-mobile-menu-icon{
+     color: black;
+     border: none;
+     background-color: transparent;
+     font-size: 23px;
+    }
+    .quicktech-mobile-logo img{
+        width: 80%;
+        height: 58px;
+    }
+    .quicktech-search-mobile input {
+        width: 100%;
+        padding: 5px 5px 5px 35px;
+        border-radius: 20px;
+        border: 2px solid #d91b5d;
+    }
+    .quicktech-search-mobile{
+        position: relative;
+    }
+    .quicktech-searchmob-icon {
+        position: absolute;
+        top: 7px;
+        left: 14px;
+    }
+     .quicktech-searchmob-icon button{
+        border: none;
+        background-color: transparent;
+     }
+     .quicktecch-profile {
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        background-color: white;
+        border-radius: 10px;
+    }
+  .quicktecch-profile a{
+    color: #d91b5d;
+    font-weight: 600;
+  }
+      .quicktecch-profile img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #ff5678;
+        margin-right: 10px;
+      }
+  
+      .quicktecch-category {
+        cursor: pointer;
+        padding: 10px;
+        border-bottom: 1px solid #f1f1f1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+  
+      .quicktecch-submenu a {
+        display: block;
+        padding: 10px;
+        padding-left: 20px;
+        text-decoration: none;
+        color: #333;
+      }
+  
+      .quicktecch-submenu a:hover {
+        background-color: #f1f1f1;
+      }
+  
+      .quicktecch-category span {
+        font-weight: bold;
+      }
+      .offcanvas-header {
+        background-color: white;
+        text-align: center;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0/0.1),0 2px 4px -2px rgb(0 0 0/0.1);
+    }
+     /* nav */
+
+     .swiper-slide img {
+        height: 200px;
+        width: 100% !important;
+    }
+    .quicktech-ad-gif img {
+        height: 50px;
+    }
+    .quictech-product-img img {
+        height: 300px;
+    }
+    .quicktech-deals-img img {
+        height: 335px;
+    }
+    .quicktech-shopbycategories img {
+        height: 76px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .quicktech-shopbycategories a {
+        color: black;
+        font-weight: 600;
+        transition: 0.4s ease-in-out;
+        font-size: 10px;
+    }
+    .quicktech-c-main {
+        width: 48%;
+    }
+    .quicktech-c-main img {
+        height: 195px;
+        width: 100%;
+    }
+    .quicktech-app-img img {
+        height: 95px;
+    }
+    .quicktech-app-img {
+        height: 95px;
+    }
+    .quicktech-footer-main {
+        display: block;
+        column-gap: 20px;
+        /* width: 100%; */
+    }
+    .quicktech-footer-one img {
+        width: 200px;
+    }
+    .quicktech-footer-one {
+        width: 100%;
+    }
+    .quikctech-side-itemm p {
+        font-size: 11px;
+        padding: 0 3px;
+    }
+    .quicktech-side-price {
+        background-color: #d91b5d;
+        border-radius: 3px;
+        font-size: 10px;
+    }
+    .quikctech-side-itemm {
+        padding-top: 6px;
+        line-height: 0px;
+    }
+    .side-cart-footer p {
+        font-size: 16px;
+        font-weight: 600;
+        width: 85px;
+    }
+    .side-cart-footer a {
+        padding: 4px 11px;
+        background-color: #d91b5d;
+        color: white;
+        font-weight: 600;
+        width: auto;
+        font-size: 14px;
+    }
+    /* index */
+    /* login */
+    .quicktech-login-img{
+        display: none;
+    }
+    .quicktech-login-form {
+        padding: 30px;
+        
+    }
+    #quicktech-login {
+        padding-bottom: 30px;
+        padding-top: 105px;
+    }
+    .quicktech-login-border {
+        border: none;
+        border-radius: 20px;
+    }
+    /* login */
+
+/* product details */
+#quicktech-productdetails {
+	padding-bottom: 30px;
+	padding-top: 80px;
+}
+.quicktech-ff {
+    display: block !important;
+}
+.total-price {
+	font-size: 15px;
+	font-weight: 500;
+	padding-top: 20px;
+}
+.quicktech-price-productdetails{
+    display: block !important;
+    padding-bottom: 15px;
+}
+.quikctech-recommend h4 {
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.side-cart-footer a {
+	padding: 4px 11px;
+	background-color: #d91b5d;
+	color: white;
+	font-weight: 600;
+	width: auto;
+	font-size: 14px;
+}
+.nav-pills .nav-link {
+	font-weight: 600;
+	background-color: #ddd;
+	color: rgb(107 114 128);
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+/* product details */
+
+/* privacy policy */
+#quicktech-privacy {
+	padding-bottom: 30px;
+	padding-top: 111px;
+}
+.quicktech-categories-banner img {
+	height: 54px;
+}
+/* privacy policy */
+/* order details */
+#quicktech-orderdetails{
+    padding-top: 86px;
+}
+.quicktech.order-header {
+	display: block;
+	
+}
+.order-header h2 {
+	font-size: 17px;
+	color: #333;
+	font-weight: 700;
+	padding-bottom: 5px;
+}
+.quicktech-bg {
+	background-color: rgb(251 245 246);
+	padding: 15px 0;
+	border-radius: 10px;
+}
+.quicktech.order-items th, .quicktech.order-items td {
+	padding: 11px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+	font-weight: 500;
+	font-size: 10px;
+}
+.quicktech.order-items th, .quicktech.order-items td {
+	padding: 7px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+	font-weight: 500;
+	font-size: 11px;
+}
+.quicktech.customer-details td {
+	padding: 8px 0;
+	border-bottom: 1px solid #ddd;
+	font-size: 12px;
+	font-weight: 500;
+}
+.quicktech-ad p {
+	font-size: 12px;
+	font-weight: 400;
+}
+.quicktech-ad strong {
+	font-size: 12px;
+	font-weight: 700;
+}
+.quicktech.total h2 {
+	font-size: 21px;
+	color: #333;
+	text-align: center;
+	font-size: 19px !important;
+}
+/* order details */
+
+/* dashboard */
+.quicktech-dash-tab{
+    flex-direction: row !important;
+    column-gap: 0px;
+}
+.quicktech-dash-tab button{
+    font-size: 13px !important;
+}
+.quicktech-dashboard-tab-content p {
+	font-size: 13px;
+	font-weight: 500;
+}
+#quicktech-dashboard {
+	padding-bottom: 30px;
+	padding-top: 106px;
+}
+/* dashboard */
+
+/* checkout */
+#quicktech-checkout{
+    padding-top: 90px !important;
+}
+.quicktec-title {
+	font-weight: bold;
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+.quicktech-coupon input {
+	padding: 4px 0;
+	padding-left: 8px;
+	/* padding-right: 6px; */
+	border-radius: 4px;
+	border: 2px solid #ddd;
+	width: 100%;
+	margin-bottom: 10px;
+}
+/* checkout */
+/* categories */
+#quicktech-categories {
+	padding-bottom: 30px;
+	padding-top: 114px;
+}
+.quicktech-ddd{
+    display: none;
+}
+.quicktech-defult-btn{
+    text-align: left !important;
+}
+.item-sidebar {
+	position: fixed;
+	top: 60%;
+	right: -1px;
+	transform: translateY(-50%);
+	z-index: 99;
+	color: white;
+	background-color: #192038;
+	border: 1px solid #d91b5d;
+	border-radius: 4px;
+	padding: 0 10px;
+}
+/*  */
+.quicktech-bottom-nav-filter{
+    display: block;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: white;
+    z-index: 9;
+    text-align: center;
+    box-shadow: 10px 4px 6px 10px rgb(0 0 0/0.1),0 2px 4px -2px rgb(0 0 0/0.1);
+  }
+  .quicktech-bottom-nav-filter button{
+        color: black;
+        font-weight: 700;
+        font-size: 19px;
+        background-color: transparent;
+        border: none;
+   
+  }
+  .quicktech-bottom-nav-filter button:hover{
+    background-color: transparent;
+    color: black;
+    border: none;
+
+}
+/* categories */
+.review-form {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	width: 100%;
+}
+/* outlet */
+.out-imgg{
+    height: 230px !important;
+}
+.mapp{
+    height: 230px !important;
+}
+/* outlet */
+
+/* magazine */
+.quicktech-magazine-img img {
+	height: 450px;
+}
+/* magazine */
+/* our story */
+.quicktech-ceo-img img{
+    width: 200px !important;
+    height: 200px !important;
+}
+.quicktech-ceo-details {
+	padding: 0;
+}
+.quicktech-see-gal img {
+	height: 230px;
+}
+/* our story */
+
+}
+
+@media (min-width: 576px) and (max-width: 766.98px) {
+        /* index */
+    /* nav */
+    #quicktech-mobile-nav{
+        padding: 10px;
+        background-color: white;
+    }
+    .header {
+       
+        display: none;
+    }
+    #quicktech-mobile-nav {
+        display: block;
+        position: fixed;
+        width: 100%;
+        z-index: 99;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0/0.1),0 2px 4px -2px rgb(0 0 0/0.1);
+    }
+      #quicktech-banner {
+        padding-top: 129px;
+    }
+    .quicktech-menu-sidebar{
+        padding-top: 5px;
+    }
+    .quicktech-mobile-menu-icon{
+     color: black;
+     border: none;
+     background-color: transparent;
+     font-size: 23px;
+    }
+    .quicktech-mobile-logo img{
+        width: 48%;
+    }
+    .quicktech-search-mobile input {
+        width: 100%;
+        padding: 5px 5px 5px 35px;
+        border-radius: 20px;
+        border: 2px solid #d91b5d;
+    }
+    .quicktech-search-mobile{
+        position: relative;
+    }
+    .quicktech-searchmob-icon {
+        position: absolute;
+        top: 7px;
+        left: 14px;
+    }
+     .quicktech-searchmob-icon button{
+        border: none;
+        background-color: transparent;
+     }
+     .quicktecch-profile {
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        background-color: white;
+        border-radius: 10px;
+    }
+  .quicktecch-profile a{
+    color: #d91b5d;
+    font-weight: 600;
+  }
+      .quicktecch-profile img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #ff5678;
+        margin-right: 10px;
+      }
+  
+      .quicktecch-category {
+        cursor: pointer;
+        padding: 10px;
+        border-bottom: 1px solid #f1f1f1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+  
+      .quicktecch-submenu a {
+        display: block;
+        padding: 10px;
+        padding-left: 20px;
+        text-decoration: none;
+        color: #333;
+      }
+  
+      .quicktecch-submenu a:hover {
+        background-color: #f1f1f1;
+      }
+  
+      .quicktecch-category span {
+        font-weight: bold;
+      }
+      .offcanvas-header {
+        background-color: white;
+        text-align: center;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0/0.1),0 2px 4px -2px rgb(0 0 0/0.1);
+    }
+     /* nav */
+
+     .swiper-slide img {
+        height: 200px;
+        width: 100% !important;
+    }
+    .quicktech-ad-gif img {
+        height: 50px;
+    }
+    .quictech-product-img img {
+        height: 260px;
+    }
+    .quicktech-deals-img img {
+        height: 335px;
+    }
+    .quicktech-shopbycategories img {
+        height: 76px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .quicktech-shopbycategories a {
+        color: black;
+        font-weight: 600;
+        transition: 0.4s ease-in-out;
+        font-size: 10px;
+    }
+    .quicktech-c-main {
+        width: 48%;
+    }
+    .quicktech-c-main img {
+        height: 195px;
+        width: 100%;
+    }
+    .quicktech-app-img img {
+        height: 95px;
+    }
+    .quicktech-app-img {
+        height: 95px;
+    }
+    .quicktech-footer-main {
+        display: block;
+        column-gap: 20px;
+        /* width: 100%; */
+    }
+    .quicktech-footer-one img {
+        width: 200px;
+    }
+    .quicktech-footer-one {
+        width: 100%;
+    }
+    .quikctech-side-itemm p {
+        font-size: 11px;
+        padding: 0 3px;
+    }
+    .quicktech-side-price {
+        background-color: #d91b5d;
+        border-radius: 3px;
+        font-size: 10px;
+    }
+    .quikctech-side-itemm {
+        padding-top: 6px;
+        line-height: 0px;
+    }
+    .side-cart-footer p {
+        font-size: 16px;
+        font-weight: 600;
+        width: 85px;
+    }
+    .side-cart-footer a {
+        padding: 4px 11px;
+        background-color: #d91b5d;
+        color: white;
+        font-weight: 600;
+        width: auto;
+        font-size: 14px;
+    }
+    /* index */
+    /* login */
+    .quicktech-login-img{
+        display: none;
+    }
+    .quicktech-login-form {
+        padding: 30px;
+        
+    }
+    #quicktech-login {
+        padding-bottom: 30px;
+        padding-top: 105px;
+    }
+    .quicktech-login-border {
+        border: none;
+        border-radius: 20px;
+    }
+    /* login */
+    /* product details */
+#quicktech-productdetails {
+	padding-bottom: 30px;
+	padding-top: 80px;
+}
+.quicktech-ff {
+    display: block !important;
+}
+.total-price {
+	font-size: 15px;
+	font-weight: 500;
+	padding-top: 20px;
+}
+.quicktech-price-productdetails{
+    display: block !important;
+    padding-bottom: 15px;
+}
+.quikctech-recommend h4 {
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.side-cart-footer a {
+	padding: 4px 11px;
+	background-color: #d91b5d;
+	color: white;
+	font-weight: 600;
+	width: auto;
+	font-size: 14px;
+}
+.nav-pills .nav-link {
+	font-weight: 600;
+	background-color: #ddd;
+	color: rgb(107 114 128);
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.review-form {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	width: 80%;
+}
+.file-upload {
+	display: block;
+	background-color: #eeeeee;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-bottom: 15px;
+	color: #5e5e5e;
+	text-align: center;
+	width: auto;
+}
+/* product details */
+/* order details */
+#quicktech-orderdetails{
+    padding-top: 85px;
+}
+/* dashboard */
+.quicktech-dash-tab{
+    flex-direction: row !important;
+    column-gap: 0px;
+}
+.quicktech-dash-tab button{
+    font-size: 14px !important;
+}
+.quicktech-dashboard-tab-content p {
+	font-size: 14px;
+	font-weight: 500;
+}
+#quicktech-dashboard {
+	padding-bottom: 30px;
+	padding-top: 106px;
+}
+/* dashboard */
+/* checkout */
+#quicktech-checkout{
+    padding-top: 90px !important;
+}
+.quicktec-title {
+	font-weight: bold;
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+.quicktech-coupon input {
+	padding: 4px 0;
+	padding-left: 8px;
+	/* padding-right: 6px; */
+	border-radius: 4px;
+	border: 2px solid #ddd;
+	width: 100%;
+	margin-bottom: 10px;
+}
+/* checkout */
+/* categories */
+#quicktech-categories {
+	padding-bottom: 30px;
+	padding-top: 114px;
+}
+.quicktech-ddd{
+    display: none;
+}
+.quicktech-defult-btn{
+    text-align: left !important;
+}
+.item-sidebar {
+	position: fixed;
+	top: 60%;
+	right: -1px;
+	transform: translateY(-50%);
+	z-index: 99;
+	color: white;
+	background-color: #192038;
+	border: 1px solid #d91b5d;
+	border-radius: 4px;
+	padding: 0 10px;
+}
+/*  */
+.quicktech-bottom-nav-filter{
+    display: block;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: white;
+    z-index: 9;
+    text-align: center;
+    box-shadow: 10px 4px 6px 10px rgb(0 0 0/0.1),0 2px 4px -2px rgb(0 0 0/0.1);
+  }
+  .quicktech-bottom-nav-filter button{
+        color: black;
+        font-weight: 700;
+        font-size: 19px;
+        background-color: transparent;
+        border: none;
+   
+  }
+  .quicktech-bottom-nav-filter button:hover{
+    background-color: transparent;
+    color: black;
+    border: none;
+
+}
+/* categories */
+.review-form {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	width: 100%;
+}
+
+/* outlet */
+.out-imgg {
+	height: 330px;
+}
+.mapp{
+    height: 330px;
+}
+/* outlet */
+/* ourr story */
+.quicktech-ceo-details {
+	padding: 0;
+}
+/* our story */
+
+
+}
+
+@media (min-width: 767px) and (max-width: 991.98px) {
+       /* index */
+    /* nav */
+    #quicktech-mobile-nav{
+        padding: 10px;
+        background-color: white;
+    }
+    .header {
+       
+        display: none;
+    }
+    #quicktech-mobile-nav {
+        display: block;
+        position: fixed;
+        width: 100%;
+        z-index: 99;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0/0.1),0 2px 4px -2px rgb(0 0 0/0.1);
+    }
+      #quicktech-banner {
+        padding-top: 129px;
+    }
+    .quicktech-menu-sidebar{
+        padding-top: 5px;
+    }
+    .quicktech-mobile-menu-icon{
+     color: black;
+     border: none;
+     background-color: transparent;
+     font-size: 23px;
+    }
+    .quicktech-mobile-logo img{
+        width: 38%;
+    }
+    .quicktech-search-mobile input {
+        width: 100%;
+        padding: 5px 5px 5px 35px;
+        border-radius: 20px;
+        border: 2px solid #d91b5d;
+    }
+    .quicktech-search-mobile{
+        position: relative;
+    }
+    .quicktech-searchmob-icon {
+        position: absolute;
+        top: 7px;
+        left: 14px;
+    }
+     .quicktech-searchmob-icon button{
+        border: none;
+        background-color: transparent;
+     }
+     .quicktecch-profile {
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        background-color: white;
+        border-radius: 10px;
+    }
+  .quicktecch-profile a{
+    color: #d91b5d;
+    font-weight: 600;
+  }
+      .quicktecch-profile img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #ff5678;
+        margin-right: 10px;
+      }
+  
+      .quicktecch-category {
+        cursor: pointer;
+        padding: 10px;
+        border-bottom: 1px solid #f1f1f1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+  
+      .quicktecch-submenu a {
+        display: block;
+        padding: 10px;
+        padding-left: 20px;
+        text-decoration: none;
+        color: #333;
+      }
+  
+      .quicktecch-submenu a:hover {
+        background-color: #f1f1f1;
+      }
+  
+      .quicktecch-category span {
+        font-weight: bold;
+      }
+      .offcanvas-header {
+        background-color: white;
+        text-align: center;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0/0.1),0 2px 4px -2px rgb(0 0 0/0.1);
+    }
+     /* nav */
+
+     .swiper-slide img {
+        height: 250px;
+        width: 100% !important;
+    }
+    .quicktech-ad-gif img {
+        height: 50px;
+    }
+    .quictech-product-img img {
+        height: 260px;
+    }
+    .quicktech-deals-img img {
+        height: 335px;
+    }
+    .quicktech-shopbycategories img {
+        height: 76px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .quicktech-shopbycategories a {
+        color: black;
+        font-weight: 600;
+        transition: 0.4s ease-in-out;
+        font-size: 10px;
+    }
+    .quicktech-c-main {
+        width: 48%;
+    }
+    .quicktech-c-main img {
+        height: 195px;
+        width: 100%;
+    }
+    .quicktech-app-img img {
+        height: 95px;
+    }
+    .quicktech-app-img {
+        height: 95px;
+    }
+    .quicktech-footer-main {
+        display: block;
+        column-gap: 20px;
+        /* width: 100%; */
+    }
+    .quicktech-footer-one img {
+        width: 200px;
+    }
+    .quicktech-footer-one {
+        width: 100%;
+    }
+    .quikctech-side-itemm p {
+        font-size: 11px;
+        padding: 0 3px;
+    }
+    .quicktech-side-price {
+        background-color: #d91b5d;
+        border-radius: 3px;
+        font-size: 10px;
+    }
+    .quikctech-side-itemm {
+        padding-top: 6px;
+        line-height: 0px;
+    }
+    .side-cart-footer p {
+        font-size: 16px;
+        font-weight: 600;
+        width: 85px;
+    }
+    .side-cart-footer a {
+        padding: 4px 11px;
+        background-color: #d91b5d;
+        color: white;
+        font-weight: 600;
+        width: auto;
+        font-size: 14px;
+    }
+    /* index */
+    /* login */
+    .quicktech-login-img{
+        display: none;
+    }
+    .quicktech-login-form {
+        padding: 30px;
+        
+    }
+    #quicktech-login {
+        padding-bottom: 30px;
+        padding-top: 105px;
+    }
+    .quicktech-login-border {
+        border: none;
+        border-radius: 20px;
+    }
+    /* login */
+       /* product details */
+#quicktech-productdetails {
+	padding-bottom: 30px;
+	padding-top: 80px;
+}
+#quicktech-orderdetails{
+    padding-top: 100px;
+}
+/* dashboard */
+.quicktech-dash-tab{
+    flex-direction: row !important;
+}
+#quicktech-dashboard {
+	padding-bottom: 30px;
+	padding-top: 106px;
+}
+/* checkout */
+#quicktech-checkout{
+    padding-top: 90px !important;
+}
+.quicktec-title {
+	font-weight: bold;
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+.quicktech-coupon input {
+	padding: 4px 0;
+	padding-left: 8px;
+	/* padding-right: 6px; */
+	border-radius: 4px;
+	border: 2px solid #ddd;
+	width: 100%;
+	margin-bottom: 10px;
+}
+/* checkout */
+/* categories */
+#quicktech-categories {
+	padding-bottom: 30px;
+	padding-top: 114px;
+}
+.quicktech-ddd{
+    display: none;
+}
+.quicktech-defult-btn{
+    text-align: left !important;
+}
+.item-sidebar {
+	position: fixed;
+	top: 60%;
+	right: -1px;
+	transform: translateY(-50%);
+	z-index: 99;
+	color: white;
+	background-color: #192038;
+	border: 1px solid #d91b5d;
+	border-radius: 4px;
+	padding: 0 10px;
+}
+/* categories */
+/*  */
+.quicktech-bottom-nav-filter{
+    display: block;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: white;
+    z-index: 9;
+    text-align: center;
+    box-shadow: 10px 4px 6px 10px rgb(0 0 0/0.1),0 2px 4px -2px rgb(0 0 0/0.1);
+  }
+  .quicktech-bottom-nav-filter button{
+        color: black;
+        font-weight: 700;
+        font-size: 19px;
+        background-color: transparent;
+        border: none;
+   
+  }
+  .quicktech-bottom-nav-filter button:hover{
+    background-color: transparent;
+    color: black;
+    border: none;
+
+}
+
+        /* outlet */
+.out-imgg {
+	height: 225px;
+}
+.mapp{
+    height: 225px;
+}
+/* outlet */
+.quicktech-see-gal img {
+	height: 210px;
+}
+}

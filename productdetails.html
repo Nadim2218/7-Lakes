@@ -1,0 +1,1301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Categories</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/nouislider@15.5.1/dist/nouislider.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+  <!-- side item -->
+  <button
+  class="item-sidebar"
+  type="button"
+  data-bs-toggle="offcanvas"
+  data-bs-target="#offcanvasRight"
+  aria-controls="offcanvasRight"
+>
+  <div class="quikctech-side-itemm">
+    <i class="fa-solid fa-bag-shopping"></i>
+    <p>0 ITEMS</p>
+  </div>
+  <p class="quicktech-side-price">৳ 0</p>
+</button>
+
+<div
+  class="offcanvas offcanvas-end"
+  tabindex="-1"
+  id="offcanvasRight"
+  aria-labelledby="offcanvasRightLabel"
+>
+  <div class="offcanvas-header">
+    <button
+      type="button"
+      class="btn-close quicktech-close text-reset"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
+    <h5 id="offcanvasRightLabel">CART</h5>
+    <h1></h1>
+  </div>
+  <div class="offcanvas-body">
+    <div class="container">
+      <div style="padding-bottom: 100px;" class="row gap">
+        
+        <div class="col-lg-12">
+          <div class="quicktech-sidebar-cart-content d-flex gap-3">
+            <div class="quikctech-sidecart-img">
+              <img src="images/prcat.webp" alt="" />
+            </div>
+            <div
+              class="quikctech-sidebar-cart-details d-flex justify-content-between"
+            >
+             <div class="pp">
+              <p>
+                Christian Dean Secret Tone Up Sun Cream
+                <br />
+                <span> ৳ 499 </span>
+               
+              </p>
+              <div class="quicktech-quantiti-work d-flex align-items-center gap-2">
+                <div id="decrease" class="quicktech-quantity-buttonn">-</div>
+                <div id="value" class="value">1</div>
+                <div id="increase" class="quicktech-quantity-buttonn">+</div>
+              </div>
+             </div>
+             <div class="s-b">
+              <button><i class="fa-solid fa-trash"></i></button>
+             </div>
+            </div>
+          </div>
+          <div class="quicktech-side-cart-price text-end mt-1">
+            <p>৳ 1996.00</p>
+          </div>
+        </div>
+     
+       
+      </div>
+    </div>
+    <div class="side-cart-footer d-flex">
+      <p>
+        cart total
+        <br />
+        <span> ৳ 499 </span>
+      </p>
+      <a href="checkout.html">Proceed <i class="fa-solid fa-chevron-right"></i></a>
+    </div>
+  </div>
+</div>
+<!-- side item -->
+    <!-- navbar -->
+    <nav class="header">
+      <div class="container">
+        <div class="row quicktech-head">
+          <div class="col-lg-4">
+            <a class="logo" href="index.html"
+              ><img src="images/logo.png" class="w-100" alt=""
+            /></a>
+          </div>
+          <div class="col-lg-4">
+            <form class="d-flex m-auto quicktech-search-input" role="search">
+              <input
+                class="form-control quicktech-input me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="searh-btn" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+          <div class="col-lg-4">
+            <div class="quicketch-login-bag-btn text-end">
+              <a href="login.html">Login</a>
+              <a
+                class="quicketch--cartt-btn"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+                ><i class="fa-solid fa-bag-shopping"></i> My Bag</a
+              >
+            </div>
+          </div>
+        </div>
+        <hr />
+        <!-- top-categories -->
+        <div class="row quicktech-cate">
+          <div class="col-lg-12">
+            <ul class="navbar-nav align-items-center">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  >Makeup</a
+                >
+                <div class="dropdown-menu">
+                  <div class="d-flex">
+                    <div class="dropdown-column">
+                      <h5>FACE</h5>
+                      <ul>
+                        <li><a href="#">Face Primer</a></li>
+                        <li><a href="#">Concealer</a></li>
+                        <li><a href="#">Foundation</a></li>
+                        <li><a href="#">Compact & Pressed Powder</a></li>
+                        <!-- Add more items -->
+                      </ul>
+                    </div>
+                    <div
+                      style="background-color: #e0e0e052"
+                      class="dropdown-column"
+                    >
+                      <h5>EYES</h5>
+                      <ul>
+                        <li><a href="#">Kajal</a></li>
+                        <li><a href="#">Eyeliner</a></li>
+                        <li><a href="#">Mascara</a></li>
+                        <li><a href="#">Eye Shadow</a></li>
+                        <!-- Add more items -->
+                      </ul>
+                    </div>
+                    <div class="dropdown-column">
+                      <h5>LIPS</h5>
+                      <ul>
+                        <li><a href="#">Lipstick</a></li>
+                        <li><a href="#">Lip Gloss</a></li>
+                        <li><a href="#">Lip Liner</a></li>
+                        <!-- Add more items -->
+                      </ul>
+                    </div>
+                    <!-- Add more columns if needed -->
+                  </div>
+                </div>
+              </li>
+              <!-- Add more nav items if needed -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  >Skin Care</a
+                >
+                <div class="dropdown-menu">
+                  <div class="d-flex">
+                    <div class="dropdown-column">
+                      <h5>FACE</h5>
+                      <ul>
+                        <li><a href="#">Face Primer</a></li>
+                        <li><a href="#">Concealer</a></li>
+                        <li><a href="#">Foundation</a></li>
+                        <li><a href="#">Compact & Pressed Powder</a></li>
+                        <!-- Add more items -->
+                      </ul>
+                    </div>
+                    <div
+                      style="background-color: #e0e0e052"
+                      class="dropdown-column"
+                    >
+                      <h5>EYES</h5>
+                      <ul>
+                        <li><a href="#">Kajal</a></li>
+                        <li><a href="#">Eyeliner</a></li>
+                        <li><a href="#">Mascara</a></li>
+                        <li><a href="#">Eye Shadow</a></li>
+                        <!-- Add more items -->
+                      </ul>
+                    </div>
+                    <div class="dropdown-column">
+                      <h5>LIPS</h5>
+                      <ul>
+                        <li><a href="#">Lipstick</a></li>
+                        <li><a href="#">Lip Gloss</a></li>
+                        <li><a href="#">Lip Liner</a></li>
+                        <!-- Add more items -->
+                      </ul>
+                    </div>
+                    <div
+                      style="background-color: #e0e0e052"
+                      class="dropdown-column"
+                    >
+                      <h5>EYES</h5>
+                      <ul>
+                        <li><a href="#">Kajal</a></li>
+                        <li><a href="#">Eyeliner</a></li>
+                        <li><a href="#">Mascara</a></li>
+                        <li><a href="#">Eye Shadow</a></li>
+                        <!-- Add more items -->
+                      </ul>
+                    </div>
+                    <!-- Add more columns if needed -->
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  >Hair Care</a
+                >
+                <div class="dropdown-menu">
+                  <div class="d-flex">
+                    <div class="dropdown-column">
+                      <h5>FACE</h5>
+                      <ul>
+                        <li><a href="#">Face Primer</a></li>
+                        <li><a href="#">Concealer</a></li>
+                        <li><a href="#">Foundation</a></li>
+                        <li><a href="#">Compact & Pressed Powder</a></li>
+                        <!-- Add more items -->
+                      </ul>
+                    </div>
+                    <div
+                      style="background-color: #e0e0e052"
+                      class="dropdown-column"
+                    >
+                      <h5>EYES</h5>
+                      <ul>
+                        <li><a href="#">Kajal</a></li>
+                        <li><a href="#">Eyeliner</a></li>
+                        <li><a href="#">Mascara</a></li>
+                        <li><a href="#">Eye Shadow</a></li>
+                        <!-- Add more items -->
+                      </ul>
+                    </div>
+                    <div class="dropdown-column">
+                      <h5>LIPS</h5>
+                      <ul>
+                        <li><a href="#">Lipstick</a></li>
+                        <li><a href="#">Lip Gloss</a></li>
+                        <li><a href="#">Lip Liner</a></li>
+                        <!-- Add more items -->
+                      </ul>
+                    </div>
+                    <!-- Add more columns if needed -->
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  >Personal Care</a
+                >
+                <div class="dropdown-menu">
+                  <div class="d-flex">
+                    <div class="dropdown-column">
+                      <h5>FACE</h5>
+                      <ul>
+                        <li><a href="#">Face Primer</a></li>
+                        <li><a href="#">Concealer</a></li>
+                        <li><a href="#">Foundation</a></li>
+                        <li><a href="#">Compact & Pressed Powder</a></li>
+                        <!-- Add more items -->
+                      </ul>
+                    </div>
+                    <div
+                      style="background-color: #e0e0e052"
+                      class="dropdown-column"
+                    >
+                      <h5>EYES</h5>
+                      <ul>
+                        <li><a href="#">Kajal</a></li>
+                        <li><a href="#">Eyeliner</a></li>
+                        <li><a href="#">Mascara</a></li>
+                        <li><a href="#">Eye Shadow</a></li>
+                        <!-- Add more items -->
+                      </ul>
+                    </div>
+                    <div class="dropdown-column">
+                      <h5>LIPS</h5>
+                      <ul>
+                        <li><a href="#">Lipstick</a></li>
+                        <li><a href="#">Lip Gloss</a></li>
+                        <li><a href="#">Lip Liner</a></li>
+                        <!-- Add more items -->
+                      </ul>
+                    </div>
+                    <!-- Add more columns if needed -->
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  >Moms & Baby</a
+                >
+                <div class="dropdown-menu">
+                  <div class="d-flex">
+                    <div class="dropdown-column">
+                      <h5>FACE</h5>
+                      <ul>
+                        <li><a href="#">Face Primer</a></li>
+                        <li><a href="#">Concealer</a></li>
+                        <li><a href="#">Foundation</a></li>
+                        <li><a href="#">Compact & Pressed Powder</a></li>
+                        <!-- Add more items -->
+                      </ul>
+                    </div>
+
+                    <!-- Add more columns if needed -->
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  >Fragnance</a
+                >
+                <div class="dropdown-menu">
+                  <div class="d-flex">
+                    <div class="dropdown-column">
+                      <h5>FACE</h5>
+                      <ul>
+                        <li><a href="#">Face Primer</a></li>
+                        <li><a href="#">Concealer</a></li>
+                        <li><a href="#">Foundation</a></li>
+                        <li><a href="#">Compact & Pressed Powder</a></li>
+                        <!-- Add more items -->
+                      </ul>
+                    </div>
+
+                    <!-- Add more columns if needed -->
+                  </div>
+                </div>
+              </li>
+              <li><a class="quicktech-sale" href="#">Winter Sale</a></li>
+              <li><a class="quicktech-sale" href="#">Buy 1 Get 1</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- top-categories -->
+      </div>
+    </nav>
+
+    <!-- navbar -->
+     <!-- mobile navigation -->
+
+    <section id="quicktech-mobile-nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <div class="quicktech-menu-sidebar">
+              <button
+                class="quicktech-mobile-menu-icon"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasExample"
+                aria-controls="offcanvasExample"
+              >
+                <i class="fa-solid fa-bars"></i>
+              </button>
+              <!-- mobilesidebar -->
+
+              <div
+                class="offcanvas offcanvas-start"
+                tabindex="-1"
+                id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel"
+              >
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                    MENU
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div class="container">
+                    <div class="quicktecch-profile">
+                      <img
+                        src="images/pro.jpg"
+                        alt="Profile Icon"
+                      />
+                      <a href="login.html">Login</a>
+                    </div>
+                    <div class="accordion mt-2" id="categoryAccordion">
+                      <div
+                        class="quicktecch-category"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#makeup"
+                        aria-expanded="false"
+                        aria-controls="makeup"
+                      >
+                        <span>Makeup</span>
+                        <span class="toggle-icon">+</span>
+                      </div>
+                      <div
+                        id="makeup"
+                        class="quicktecch-submenu collapse"
+                        data-bs-parent="#categoryAccordion"
+                      >
+                        <a href="#">Face</a>
+                        <a href="#">Eyes</a>
+                        <a href="#">Lips</a>
+                        <a href="#">Nails</a>
+                        <a href="#">Tools & Brushes</a>
+                        <a href="#">Top Brands</a>
+                      </div>
+
+                      <div
+                        class="quicktecch-category"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#skin"
+                        aria-expanded="false"
+                        aria-controls="skin"
+                      >
+                        <span>Skin Care</span>
+                        <span class="toggle-icon">+</span>
+                      </div>
+                      <div
+                        id="skin"
+                        class="quicktecch-submenu collapse"
+                        data-bs-parent="#categoryAccordion"
+                      >
+                        <a href="#">Face</a>
+                        <a href="#">Eyes</a>
+                        <a href="#">Lips</a>
+                        <a href="#">Nails</a>
+                        <a href="#">Tools & Brushes</a>
+                        <a href="#">Top Brands</a>
+                      </div>
+
+                      <div
+                        class="quicktecch-category"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#hair"
+                        aria-expanded="false"
+                        aria-controls="hair"
+                      >
+                        <span>Hair Care</span>
+                        <span class="toggle-icon">+</span>
+                      </div>
+                      <div
+                        id="hair"
+                        class="quicktecch-submenu collapse"
+                        data-bs-parent="#categoryAccordion"
+                      >
+                        <a href="#">Face</a>
+                        <a href="#">Eyes</a>
+                        <a href="#">Lips</a>
+                        <a href="#">Nails</a>
+                        <a href="#">Tools & Brushes</a>
+                        <a href="#">Top Brands</a>
+                      </div>
+
+                      <div
+                        class="quicktecch-category"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#personalCare"
+                        aria-expanded="false"
+                        aria-controls="personalCare"
+                      >
+                        <span>Personal Care</span>
+                        <span class="toggle-icon">+</span>
+                      </div>
+                      <div
+                        id="personalCare"
+                        class="quicktecch-submenu collapse"
+                        data-bs-parent="#categoryAccordion"
+                      >
+                        <a href="#">Face</a>
+                        <a href="#">Eyes</a>
+                        <a href="#">Lips</a>
+                        <a href="#">Nails</a>
+                        <a href="#">Tools & Brushes</a>
+                        <a href="#">Top Brands</a>
+                      </div>
+
+                      <div
+                        class="quicktecch-category"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#momAndBaby"
+                        aria-expanded="false"
+                        aria-controls="momAndBaby"
+                      >
+                        <span>Mom & Baby</span>
+                        <span class="toggle-icon">+</span>
+                      </div>
+                      <div
+                        id="momAndBaby"
+                        class="quicktecch-submenu collapse"
+                        data-bs-parent="#categoryAccordion"
+                      >
+                        <a href="#">Face</a>
+                        <a href="#">Eyes</a>
+                        <a href="#">Lips</a>
+                        <a href="#">Nails</a>
+                        <a href="#">Tools & Brushes</a>
+                        <a href="#">Top Brands</a>
+                      </div>
+
+                      <div
+                        class="quicktecch-category"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fragrance"
+                        aria-expanded="false"
+                        aria-controls="fragrance"
+                      >
+                        <span>Fragrance</span>
+                        <span class="toggle-icon">+</span>
+                      </div>
+                      <div
+                        id="fragrance"
+                        class="quicktecch-submenu collapse"
+                        data-bs-parent="#categoryAccordion"
+                      >
+                        <a href="#">Face</a>
+                        <a href="#">Eyes</a>
+                        <a href="#">Lips</a>
+                        <a href="#">Nails</a>
+                        <a href="#">Tools & Brushes</a>
+                        <a href="#">Top Brands</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- mobile-sidebar -->
+            </div>
+          </div>
+          <div class="col-10">
+            <div class="quicktech-mobile-logo">
+              <a href="index.html"> <img src="images/logo.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-12 mt-2">
+            <div class="quicktech-search-mobile">
+              <input type="text" placeholder="search" />
+              <div class="quicktech-searchmob-icon">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- mobile navigation -->
+
+    <!-- product details -->
+    <section id="quicktech-productdetails" class="pt-100">
+      <div class="container">
+        <div class="row gapp mt-5">
+          <div class="col-lg-5">
+            <div class="row">
+              <div class="col-12 text-center">
+                <img
+                  id="mainImage"
+                  src="images/best1.webp"
+                  alt="Main Image"
+                  class="main-img w-100"
+                />
+              </div>
+            </div>
+            <div class="row gapp mt-4">
+              <div class="col-4 text-center">
+                <img
+                  src="images/best2.webp"
+                  alt="Thumbnail 1"
+                  class="thumbnail-img w-100"
+                  onclick="changeImage(this.src)"
+                />
+              </div>
+              <div class="col-4 text-center">
+                <img
+                  src="images/best3.webp"
+                  alt="Thumbnail 2"
+                  class="thumbnail-img w-100"
+                  onclick="changeImage(this.src)"
+                />
+              </div>
+              <div class="col-4 text-center">
+                <img
+                  src="images/best4.webp"
+                  alt="Thumbnail 3"
+                  class="thumbnail-img w-100"
+                  onclick="changeImage(this.src)"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="quikctech-product-details-content">
+              <h4>Christian Dean Secret Tone Up Sun Cream</h4>
+              <p>(70ml)</p>
+              <div
+                class="quicktech-price-productdetails d-flex justify-content-between"
+              >
+                <div class="quicktech-p">
+                  <p><s>৳ 850.00 </s> ৳499.00</p>
+                </div>
+                <div class="quicktech-stars d-flex gap-1 justify-items-center">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <span
+                >Downdoad app for <a href="#">IOS</a> or
+                <a href="#">Android</a></span
+              >
+              <h6>No#1 Best seller in <a href="#">Cristen</a></h6>
+
+              <div class="quikctech-quantity d-flex gap-4">
+                <div class="wuicktech-wish-list">
+                  <button><i class="fa-solid fa-heart"></i></button>
+                </div>
+                <div
+                  class="quicktech-quantity-work d-flex align-items-center gap-3"
+                >
+                  <div id="decrease" class="quicktech-quantity-button">-</div>
+                  <div id="value" class="value">1</div>
+                  <div id="increase" class="quicktech-quantity-button">+</div>
+                </div>
+                <div class="quicktech-product-details-addcart">
+                  <button>ADD TO CART</button>
+                </div>
+              </div>
+              <div class="quicktech-p-detailss mt-4">
+                <p>
+                  Exfoliating Gloves Easily remove dry, damaged skin with our
+                  Bath And Body Exfoliating Body Gloves. These exfoliating
+                  shower gloves are gentle yet effective at removing dead skin
+                  cells to restore your skin's natural glow. Safe for daily use
+                  on all skin types.
+                </p>
+                <p>Country of Origin: PRC.</p>
+              </div>
+              <div class="quicktech-product-details-delivery-return pt-3">
+                <h4>Delivery & Return</h4>
+                <p>SKU: 30016</p>
+                <p>
+                  Categories: Personal care, Tools & Accessories, Loofahs &
+                  Sponges, Top Selling
+                </p>
+                <p>Tags: FMCG</p>
+                <p>Brands: Skinlogic</p>
+              </div>
+              <div class="quicktech-product-social-icons">
+                <ul class="quicktech-ps-icon">
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 mb-4">
+            <div class="quikctech-recommend">
+              <h4>Recommend for you</h4>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 col-sm-6">
+            <a href="productdetails.html">
+              <div class="card mb-4" style="border-radius: 10px">
+                <div class="qucitech-p-mainn d-flex p-3">
+                  <div class="quicktech-p-main-img">
+                    <img
+                      class="img-fluid"
+                      src="images/prcat.webp"
+                      alt="Lux Body Wash"
+                    />
+                  </div>
+                  <div class="">
+                    <h5
+                      class="card-title font-weight-bold"
+                      style="font-size: 13px; color: black;"
+                    >
+                      Lux Body Wash French Rose & Almond
+                    </h5>
+                    <p class="card-text" style="color: #666; font-size: 13px">
+                      245ml
+                    </p>
+                    <span
+                      class="badge badge-danger"
+                      style="font-size: 13px; color: #d91b5d"
+                      >SALE</span
+                    >
+                    <p>
+                      <span class="text-muted" style="font-size: 13px"
+                        >৳ 200.00</span
+                      >
+  
+                      <span
+                        class="text-danger font-weight-bold"
+                        style="font-size: 13px"
+                        >৳ 149.00</span
+                      >
+                    </p>
+                  </div>
+                </div>
+                <div class="card-footer border-0 bg-white text-center">
+                  <button class="btn btn-pink btn-block">ADD TO CART</button>
+                </div>
+              </div>
+            </a>
+         
+              </div>
+              <div class="col-lg-12 col-sm-6">
+                <a href="productdetails.html">
+                  <div class="card mb-4" style="border-radius: 10px">
+                    <div class="qucitech-p-mainn d-flex p-3">
+                      <div class="quicktech-p-main-img">
+                        <img
+                          class="img-fluid"
+                          src="images/prcat.webp"
+                          alt="Lux Body Wash"
+                        />
+                      </div>
+                      <div class="">
+                        <h5
+                          class="card-title font-weight-bold"
+                          style="font-size: 13px; color: black;"
+                        >
+                          Lux Body Wash French Rose & Almond
+                        </h5>
+                        <p class="card-text" style="color: #666; font-size: 13px">
+                          245ml
+                        </p>
+                        <span
+                          class="badge badge-danger"
+                          style="font-size: 13px; color: #d91b5d"
+                          >SALE</span
+                        >
+                        <p>
+                          <span class="text-muted" style="font-size: 13px"
+                            >৳ 200.00</span
+                          >
+      
+                          <span
+                            class="text-danger font-weight-bold"
+                            style="font-size: 13px"
+                            >৳ 149.00</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card-footer border-0 bg-white text-center">
+                      <button class="btn btn-pink btn-block">ADD TO CART</button>
+                    </div>
+                  </div>
+                </a>
+             
+                  </div>
+            </div>
+          </div>
+        </div>
+        <!-- frequently brought together -->
+        <div class="row mt-5">
+          <div class="col-lg-7">
+            <div class="quicktech-frequently-brought">
+              <h4>Frequently Bought Together</h4>
+              <div class="quicktech-ff d-flex align-items-center gap-4">
+                <div class="d-flex gap-3 align-items-center mt-4">
+                  <div class="product-card quicktech-frequently-img">
+                    <img src="images/prcat.webp" alt="Product Image 1" />
+                  </div>
+                  <span class="font-weight-bold">+</span>
+                  <div class="product-card quicktech-frequently-img">
+                    <img src="images/prcat.webp " alt="Product Image 2" />
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <p class="total-price">Total Price: <span>৳348.00</span></p>
+                  </div>
+                  <button class="add-to-cart-btn">ADD BOTH TO CART</button>
+                </div>
+              </div>
+              <div class="mt-4">
+                <div>
+                  <input type="checkbox" id="item1" checked />
+                  <label for="item1" class="checkbox-text"
+                    >This Item:
+                    <span
+                      >Skinlogic Bath And Body Exfoliating Body Gloves 1 Pair
+                      Blue</span
+                    ></label
+                  >
+                  <span class="ml-3">
+                    <span class="old-price">৳250.00</span>
+                    <span class="new-price">৳199.00</span>
+                  </span>
+                </div>
+                <div class="mt-2">
+                  <input type="checkbox" id="item2" checked />
+                  <label for="item2" class="checkbox-text1"
+                    >Lux Body Wash Black Orchid Scent & Juniper Oil 245ml</label
+                  >
+                  <span class="ml-3">
+                    <span class="old-price">৳200.00</span>
+                    <span class="new-price">৳149.00</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product detils -->
+
+ 
+      <!-- tabs -->
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-lg-12">
+            <div class="quciktech-tabs">
+              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="pills-description-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-description"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-description"
+                    aria-selected="true"
+                  >
+                    Description
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-ingredients-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-ingredients"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-ingredients"
+                    aria-selected="false"
+                  >
+                    Ingredients
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-use-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-use"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-use"
+                    aria-selected="false"
+                  >
+                    How To Use
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-reviews-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-reviews"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-reviews"
+                    aria-selected="false"
+                  >
+                    Reviews <span>(0)</span>
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-question-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-question"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-question"
+                    aria-selected="false"
+                  >
+                    Q&A <span> (1)</span>
+                  </button>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="pills-description"
+                  role="tabpanel"
+                  aria-labelledby="pills-description-tab"
+                >
+                  <div class="row mt-5">
+                    <div class="col-lg-12">
+                      <div class="quicktech-tab-description">
+                        <p>
+                          Exfoliating Gloves Easily remove dry, damaged skin
+                          with our Bath And Body Exfoliating Body Gloves. These
+                          exfoliating shower gloves are gentle yet effective at
+                          removing dead skin cells to restore your skin's
+                          natural glow. Safe for daily use on all skin types.
+                          <br />
+                          <br>
+                          Country of Origin: PRC.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-ingredients"
+                  role="tabpanel"
+                  aria-labelledby="pills-ingredients-tab"
+                >
+                <div class="row mt-5">
+                  <div class="col-lg-12">
+                    <div class="quicktech-tab-description">
+                      <p>
+                        Recycled Polyester Yarn, Nylon Yarn, Organic Cotton Yarn, Elastic Rubber.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-use"
+                  role="tabpanel"
+                  aria-labelledby="pills-use-tab"
+                >
+                <div class="row mt-5">
+                  <div class="col-lg-12">
+                    <div class="quicktech-tab-description">
+                      <p>
+                        Massage your body in circular motions with this body glove to remove the dry skin and dead skin cells blocking your pores. Do not be rough or press too hard as it would irritate the skin.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-reviews"
+                  role="tabpanel"
+                  aria-labelledby="pills-reviews-tab"
+                >
+                 <div class="row mt-5">
+                  <div class="col-lg-12 d-flex justify-content-center">
+                    <div class="review-form">
+                      <h2>Add Review</h2>
+                      <form action="#">
+                          <div class="rating">
+                              <label>Your Rating</label>
+                              <div class="stars">
+                                  <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                              </div>
+                          </div>
+                          <input class="quikctech-inputtt" type="text" name="name" placeholder="Name">
+                          <input class="quikctech-inputtt" type="email" name="email" placeholder="Email Address">
+                          <textarea class="quicktech-textarea" name="review" placeholder="Review"></textarea>
+                          <input class="quikctech-inputtt" type="file" id="file-upload" style="display:none;">
+                          <label for="file-upload" class="file-upload">Browse... No files selected.</label>
+                          <button class="quicktech-review-btn" type="submit">Submit</button>
+                      </form>
+                  </div>
+                  </div>
+                 </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="pills-question"
+                  role="tabpanel"
+                  aria-labelledby="pills-question-tab"
+                >
+                 <div class="row mt-5">
+                  <div class="col-lg-12">
+                    <div class="quicktech-question-answer">
+                      <p><a href="login.html">Login</a> or <a href="register.html">Register</a>
+                        to ask question about this product.</p>
+                    </div>
+                    <div class="quicktech-q-a">
+                      <!-- question -->
+                  <div class="quicktech-questions">
+                    <p><i class="fa-solid fa-circle-question"></i> Is it for one time use?
+                      <br>
+                      <span>Musfika Bornali - August 25, 2024</span>
+                    </p>
+                  </div>
+                      <!-- answer -->
+                    <div class="quikctech-answers">
+                      <p><i class="fa-solid fa-message"></i> Hello! No, Skinlogic Bath and Body Exfoliating Body Gloves are not for one-time use. They are designed for multiple uses and can be washed and reused.
+                        <br>
+                        <span>Shajgoj Customer Care - August 25, 2024</span>
+                      </p>
+                    </div>
+                    </div>
+                  </div>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- tabs -->
+
+      <!-- customer also viewed -->
+       <section id="quikctech-customer-viewed">
+        <div class="container">
+          <div class="row mt-5">
+            <div class="col-lg-12">
+              <h4>Customer Also Viewed</h4>
+            </div>
+          </div>
+          <div class="row mt-3 gapp">
+            <div class="col-lg-3 col-sm-6">
+              <a href="productdetails.html">
+                <div class="quictech-product-img text-center">
+                  <img src="images/best1.webp" class="w-100" alt="" />
+                  <div class="quickech-wishlist">
+                    <a class="quicktech-wish" href="#"
+                      ><i class="fa-regular fa-heart"></i
+                    ></a>
+                  </div>
+                  <h4 class="hov">Cosrx Salicylic Acid Daily Gentle Cleanser</h4>
+                  <span>SALE</span>
+                  <p>৳ 245 <s>৳ 300</s></p>
+                  <a href="cart.html" class="cart-btnn">ADD TO CART</a>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <a href="productdetails.html">
+                <div class="quictech-product-img text-center">
+                  <img src="images/best1.webp" class="w-100" alt="" />
+                  <div class="quickech-wishlist">
+                    <a class="quicktech-wish" href="#"
+                      ><i class="fa-regular fa-heart"></i
+                    ></a>
+                  </div>
+                  <h4 class="hov">Cosrx Salicylic Acid Daily Gentle Cleanser</h4>
+                  <span>SALE</span>
+                  <p>৳ 245 <s>৳ 300</s></p>
+                  <a href="cart.html" class="cart-btnn">ADD TO CART</a>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <a href="productdetails.html">
+                <div class="quictech-product-img text-center">
+                  <img src="images/best1.webp" class="w-100" alt="" />
+                  <div class="quickech-wishlist">
+                    <a class="quicktech-wish" href="#"
+                      ><i class="fa-regular fa-heart"></i
+                    ></a>
+                  </div>
+                  <h4 class="hov">Cosrx Salicylic Acid Daily Gentle Cleanser</h4>
+                  <span>SALE</span>
+                  <p>৳ 245 <s>৳ 300</s></p>
+                  <a href="cart.html" class="cart-btnn">ADD TO CART</a>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <a href="productdetails.html">
+                <div class="quictech-product-img text-center">
+                  <img src="images/best1.webp" class="w-100" alt="" />
+                  <div class="quickech-wishlist">
+                    <a class="quicktech-wish" href="#"
+                      ><i class="fa-regular fa-heart"></i
+                    ></a>
+                  </div>
+                  <h4 class="hov">Cosrx Salicylic Acid Daily Gentle Cleanser</h4>
+                  <span>SALE</span>
+                  <p>৳ 245 <s>৳ 300</s></p>
+                  <a href="cart.html" class="cart-btnn">ADD TO CART</a>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <a href="productdetails.html">
+                <div class="quictech-product-img text-center">
+                  <img src="images/best1.webp" class="w-100" alt="" />
+                  <div class="quickech-wishlist">
+                    <a class="quicktech-wish" href="#"
+                      ><i class="fa-regular fa-heart"></i
+                    ></a>
+                  </div>
+                  <h4 class="hov">Cosrx Salicylic Acid Daily Gentle Cleanser</h4>
+                  <span>SALE</span>
+                  <p>৳ 245 <s>৳ 300</s></p>
+                  <a href="cart.html" class="cart-btnn">ADD TO CART</a>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+       </section>
+      <!-- customer also viewed -->
+
+    <!-- footer -->
+    <section id="footer">
+      <div class="container">
+        <div class="quicktech-footer-main">
+          <div class="quicktech-footer-one">
+            <img src="images/footerlogo.png" alt="" />
+            <ul>
+              <li><a href="story.html">OUR STORY</a></li>
+              <li><a href="magazine.html">7 LAKE'S MAGAZINE</a></li>
+              <li><a href="outlet.html">7 LAKE'S OUTLETS</a></li>
+              <li><a href="jointeam.html">JOIN OUR TEAM</a></li>
+              <li><a href="authenticity.html">AUTHENTICITY</a></li>
+
+              <hr style="color: white" />
+              <li style="color: white">SHARE YOUR LOVE</li>
+            </ul>
+
+            <div class="quicktech-socials">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="quicktech-footer-one">
+            <h4>TOP CATEGORIES</h4>
+            <ul>
+              <li><a href="categories.html">MAKE UP</a></li>
+              <li><a href="categories.html">SKIN CARE</a></li>
+              <li><a href="categories.html">HAIR CARE</a></li>
+              <li><a href="categories.html">PERSONAL CARE</a></li>
+              <li><a href="categories.html">MOMS &amp BABY</a></li>
+              <li><a href="categories.html">FRAGNANCE</a></li>
+            </ul>
+          </div>
+          <div class="quicktech-footer-one">
+            <h4>QUICK LINKS</h4>
+            <ul>
+              <li><a href="categories.html">OFFERS</a></li>
+              <li><a href="categories.html">MENS PRODUCTS</a></li>
+              <li><a href="categories.html">SKIN CONCERNS</a></li>
+              <li><a href="categories.html">NEW ARRIVAL</a></li>
+              <li><a href="categories.html">MAKE UP</a></li>
+            </ul>
+          </div>
+          <div class="quicktech-footer-one">
+            <h4>ALL ABOUT BEAUTY</h4>
+            <ul>
+              <li><a href="#">KNOW YOUR ROUTINE</a></li>
+              <li><a href="#">HAIR CARE 101</a></li>
+              <li><a href="#">SKIN CARE 101</a></li>
+              <li><a href="#">MAKEUP 101</a></li>
+            </ul>
+          </div>
+          <div class="quicktech-footer-one">
+            <h4>HELP</h4>
+            <ul>
+              <li><a href="#">CONTACT US</a></li>
+              <li><a href="#">POINTS</a></li>
+              <li><a href="#">FAQS</a></li>
+              <li><a href="#">SHIPPING & DELIVERY</a></li>
+              <li><a href="#">TERMS & CONDITIONS</a></li>
+              <li><a href="#">REFUND & RETURN POLICY</a></li>
+              <li><a href="#">TRADE LICENSE</a></li>
+              <li><a href="#">PRIVACY POLICY</a></li>
+              <hr style="color: white" />
+              <li style="color: white">PAYMENTS ACCEPTED</li>
+            </ul>
+            <div class="quicktech-payment-img">
+              <img src="images/payment-system.webp" alt="" />
+            </div>
+          </div>
+        </div>
+        <hr style="color: white" />
+        <div class="row mt-4">
+          <div class="col-lg-12">
+            <div class="quicktech-copyright text-center">
+              <h5>
+                Copyright © 2024 7 Lake's. All Right Reserved | Designed and
+                Developed by Quicktech it
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.counterup.js"></script>
+    <script src="js/jquery.youtube-background.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/nouislider@15.5.1/dist/nouislider.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
